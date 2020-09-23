@@ -12,7 +12,7 @@ body, html {
 body {
   display: grid;
   grid-template-columns: 125px 1fr;
-  width: 1200px;
+  
 }
 
 nav {
