@@ -9,6 +9,12 @@ body, html {
   box-sizing: border-box;
 } 
 
+main {
+  display: flex;
+  flex-wrap: row;
+  flex-direction: column;
+}
+
 .flex-center {
   display: flex;
   flex-direction: column;
