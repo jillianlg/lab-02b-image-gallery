@@ -11,19 +11,23 @@ body, html {
 
 main {
   display: flex;
-  flex-wrap: row;
-  flex-direction: column;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
 .flex-center {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  flex-direction: row;
+
 }
 
 .gallery-list-item {
   width: 200px;
+  margin: 20px;
 }
 
 img {
